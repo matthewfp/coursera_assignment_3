@@ -23,10 +23,11 @@ This file gives a description of what the purpose of the project is, what files 
 The project work is divided into two scripts, *download_data.R* and *run_analysis.R*. These are to be run one after the other in this order, from the same working directory, using the following commands.
 
 source("download_data.R")
+
 source("run_analysis.R")
 
 ### download_data.R
 This script downloads the required data set and extracts the contents in the current working directory.
 
 ### run_analysis.R
-This script assumes that the first script, *download_data.R*, was run. It then goes on to perform steps 3 to 8 described above.
+This script assumes that the first script, *download_data.R*, was run, or that the UCI HAR Dataset folder is in the current working directory. It then goes on to perform steps 3 to 8 described above.

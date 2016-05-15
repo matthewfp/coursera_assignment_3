@@ -76,3 +76,4 @@ The relevant set of variables that were estimated from these signals are:
  - fBodyGyroMag-std()-mean: mean of feature described above
  - fBodyGyroJerkMag-mean: mean of feature described above
  - fBodyGyroJerkMag-std()-mean: mean of feature described above
+ 
